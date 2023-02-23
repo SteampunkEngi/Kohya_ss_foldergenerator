@@ -1,5 +1,8 @@
 # Kohya_ss_foldergenerator
 Windows powershell script which automates creating folders for kohya_ss training, including generating a training config file.
+Automatically sets the training_data, output_data, log_data paths in the config folder; no more copy pasting!
+Also has the option to set the model name that you're training to "authorName_ModelName"
+Saves NSFW map structures into a different folder (optional)
 
 How to use:
 1. Download the repo. 
