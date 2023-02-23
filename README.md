@@ -4,8 +4,10 @@ Automatically sets the training_data, output_data, log_data paths in the config 
 Also has the option to set the model name that you're training to "authorName_ModelName"
 Saves NSFW map structures into a different folder (optional)
 
+For an example of the folder structure, open the __NEW format folder in Github.
+
 How to use:
-1. Download the repo. 
+1. Download the repo (All files. Click on the big green <code> button, download as zip, and unpack somewhere). 
 2. Open the .ps1 with notepad, 
 3. edit $authorName to your publication name, 
 4. change $defaultSourcemodelPath to the path and file of the .ckpt/safetensor which you want to use as a default model to train on
